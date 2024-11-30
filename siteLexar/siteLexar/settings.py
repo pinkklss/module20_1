@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app.apps.AppConfig',
+    'task1',
 ]
 
 MIDDLEWARE = [
@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'siteLexar.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "Evgeniy",
+        "NAME": "shop",
         "USER": "postgres",
         "PASSWORD": "42751536309z",
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
+        "HOST": "localhost",
+        "PORT": "1234",
     }
 }
 
